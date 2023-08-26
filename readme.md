@@ -1,36 +1,36 @@
-## QR Code 扫码获取阿里云盘 refresh token
+##。。。。 QR扫除阿取利云印记。。
 
-## Vercel 部署
+##。。。 韦塞尔部。
 
-<a href="https://vercel.com/new/import?s=https://github.com/lengniuge/token"><img src="https://vercel.com/button" height="24"></a>
+<a href。=“ https://vercel.com/new/import。?s = https://github.com/lengniuge/token”。><img。 src="https://vercel.com/button" height="24"></a>
 
-## 本地 开发
+##。。。 本地开发。
 
-- `yarn serve`
-- `yarn vercel:dev` 需要登陆
+- `纱线服务。`
+- `纱线vercel:dev。` 需要陆上。
 
-### 生成二维码
+###。。 生二绘图。
 
-说明 : 调用此接口 , 获取二维码
+说明:调整此直接,获取取二绘图。
 
-**调用例子 :** `/api/generate`
+**。。。。。。。。。。调用子:。**。。。。。。。。。。 `/ api /生成。`
 
-**可选参数 :**
-`img`: boolean
+**。。。。。。。。。。可选参数:。**。。。。。。。。。。
+`img。。。 `:布尔。
 
-**返回说明 :**
+**。。。。。。。。。。返回说明:。**。。。。。。。。。。
 
-- `t` : 一个用于查询的参数传递给 `/api/state-query` （tip：这个不是当前的时间戳）
-- `ck` : 一个用于查询的参数传递给 `/api/state-query`
-- `codeContent` : `img`为 true 时是一个 base64 图片否则是二维码的接口地址（可自行绘制二维码）
+- `t` :一项使用超过查询的输入数传递给。 `/ api / state-query。` (提示:这不是当前的时空)。
+- `ck。` :一项使用超过查询的输入数传递给。 `/ api / state-query。`
+- `codeContent。` : `img。。。 `正时是一个基数64图片是二绘图的直接位置地址(可自动测绘二测绘)。
 
-### 查询二维码状态
+###。。 检验二测绘特征。
 
-说明 : 调用此接口 ,查询二维码状态
+说明:调整此次连通,检验查询二绘图图。
 
-**调用例子 :** `/api/state-query?t=&ck=`
+**。。。。。。。。。。调用子:。**。。。。。。。。。。 `/ api / state-query。?t =&ck =。`
 
-**必选参数 :**
+**。。。。。。。。。。选参数:。**。。。。。。。。。。
 
 `t` : 使用 `/api/generate`接口返回的 `t`
 
@@ -54,8 +54,8 @@ tip : 如果不匹配 查询结果一直是 `EXPIRED`的状态
 
 ## Demo
 
-[示例](https://aliyundriver-refresh-token.vercel.app/)
+[示例](https://token-git-main-lengniuge.vercel.app/)
 
 ## License
 
-[The MIT License (MIT)](https://github.com/itxve/aliyundriver-refresh-token/blob/master/LICENSE)
+[The MIT License (MIT)](https://github.com/lengniuge/token/blob/master/LICENSE)
